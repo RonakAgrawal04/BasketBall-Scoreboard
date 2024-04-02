@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./index.css">
+    <title>Basketball Scoreboard</title>
+</head>
+<body>
+    <div id="scoreboard">
+        <div id="home-sc">
+            <h1>HOME</h1>
+            <h2 id="score1-el">0</h2>
+            <button onclick="incrementHomeBy1()">+1</button>
+            <button onclick="incrementHomeBy2()">+2</button>
+            <button onclick="incrementHomeBy3()">+3</button>
+        </div>
+        <div id="guest-sc">
+            <h1>GUEST</h1>
+            <h2 id="score2-el">0</h2>
+            <button onclick="incrementGuestBy1()">+1</button>
+            <button onclick="incrementGuestBy2()">+2</button>
+            <button onclick="incrementGuestBy3()">+3</button>
+        </div>
+    </div>
+    <h1 id="final-el">Game Start!</h1>
+    <script src="./index.js"></script>
+</body>
+</html>
